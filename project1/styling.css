@@ -1,0 +1,95 @@
+
+.center-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: flex-start; /* Align items to the top */
+    align-items: center; /* Center content horizontally */
+    width: 80vh;
+    height: 100vh; /* Make the container fill the entire viewport */
+    width: 50%; /* Set the width to a percentage of the viewport width */
+    margin: 0 auto; /* Center the container horizontally */
+    background-color: #d6cbcb; /* Set your desired background color */
+    
+    
+}
+
+
+
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-image: url('Lovely.jpg');
+    background-size: cover; /* Adjust the image size to cover the entire area */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-attachment: fixed; /* Keep the background fixed while scrolling */
+    font-family: Arial, sans-serif; /* Set a default font family */
+}
+
+.profile_picture {
+    width: 300px; /* Change this to your desired width */
+    height: auto; /* Maintain aspect ratio */
+   /* border-radius: 50%; /* Make the image round */
+    /*border-radius: 20px 20px 30px 40px; /* top left, top right, bottom right, bottom left */
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile_picture {
+    max-width: 100%;
+    max-height: 100%;
+}
+/* Style the content wrapper */
+.content-wrapper {
+    /* background-color: rgba(255, 255, 255, 0.8); Add a semi-transparent background color to the content */
+    padding: 20px; /* Add padding to the content wrapper */
+
+}
+/* styling.css */
+/* ... Other CSS rules ... */
+
+.search-box {
+    margin-top: 20px; /* Add some space between the profile photo and the search box */
+    text-align: center; /* Center the search box horizontally */
+}
+
+.search-input {
+    padding: 10px; /* Add padding to the input */
+    border: 1px solid #ccc; /* Add a border to the input */
+    border-radius: 5px; /* Add rounded corners */
+    width: 200px; /* Set the width of the input */
+}
+
+.search-button {
+    padding: 10px 20px; /* Add padding to the button */
+    background-color: #007bff; /* Set the button background color */
+    color: white; /* Set the text color */
+    border: none; /* Remove the border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+/* styling.css */
+/* ... Other CSS rules ... */
+
+.button-group {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    margin-top: 20px; /* Add some space between the search box and buttons */
+}
+
+.site-button {
+    padding: 10px 20px; /* Add padding to the buttons */
+    margin: 0 10px; /* Add margin to create space between buttons */
+    background-color: #007bff; /* Set the button background color */
+    color: white; /* Set the text color */
+    text-decoration: none; /* Remove default underline */
+    border: none; /* Remove the border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+
+
+
